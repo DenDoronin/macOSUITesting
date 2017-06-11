@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814131631EED2B1E00F73932 /* SSLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814131621EED2B1E00F73932 /* SSLoginController.m */; };
+		814131641EED2B1E00F73932 /* SSLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814131621EED2B1E00F73932 /* SSLoginController.m */; };
+		814131691EED2B4000F73932 /* SSMainUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814131671EED2B4000F73932 /* SSMainUIController.m */; };
+		8141316A1EED2B4000F73932 /* SSMainUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814131671EED2B4000F73932 /* SSMainUIController.m */; };
+		814131711EED305800F73932 /* XCTestCase+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8141316F1EED305800F73932 /* XCTestCase+Utilities.m */; };
+		814131741EED30DD00F73932 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814131731EED30DD00F73932 /* XCTest.framework */; };
+		814131791EED32F300F73932 /* XCTestCase+Input.m in Sources */ = {isa = PBXBuildFile; fileRef = 814131771EED32F300F73932 /* XCTestCase+Input.m */; };
+		8141317D1EED36BC00F73932 /* XCTestCase+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8141317B1EED36BC00F73932 /* XCTestCase+Tap.m */; };
+		81D1BC7A1EED21360089284B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D1BC791EED21360089284B /* AppDelegate.m */; };
+		81D1BC7D1EED21360089284B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D1BC7C1EED21360089284B /* main.m */; };
+		81D1BC821EED21360089284B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D1BC811EED21360089284B /* Assets.xcassets */; };
+		81D1BC851EED21360089284B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D1BC831EED21360089284B /* Main.storyboard */; };
+		81D1BC901EED21360089284B /* SSUITestSendoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D1BC8F1EED21360089284B /* SSUITestSendoxUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81D1BC8C1EED21360089284B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81D1BC6D1EED21350089284B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D1BC741EED21350089284B;
+			remoteInfo = SSUITestSendox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8141315F1EED278200F73932 /* UIAccessibilityIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAccessibilityIdentifiers.h; sourceTree = "<group>"; };
+		814131611EED2B1E00F73932 /* SSLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSLoginController.h; path = Controllers/SSLoginController.h; sourceTree = "<group>"; };
+		814131621EED2B1E00F73932 /* SSLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSLoginController.m; path = Controllers/SSLoginController.m; sourceTree = "<group>"; };
+		814131661EED2B4000F73932 /* SSMainUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSMainUIController.h; path = Controllers/SSMainUIController.h; sourceTree = "<group>"; };
+		814131671EED2B4000F73932 /* SSMainUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSMainUIController.m; path = Controllers/SSMainUIController.m; sourceTree = "<group>"; };
+		8141316E1EED305800F73932 /* XCTestCase+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+Utilities.h"; sourceTree = "<group>"; };
+		8141316F1EED305800F73932 /* XCTestCase+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+Utilities.m"; sourceTree = "<group>"; };
+		814131731EED30DD00F73932 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		814131761EED32F300F73932 /* XCTestCase+Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+Input.h"; sourceTree = "<group>"; };
+		814131771EED32F300F73932 /* XCTestCase+Input.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+Input.m"; sourceTree = "<group>"; };
+		8141317A1EED36BC00F73932 /* XCTestCase+Tap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+Tap.h"; sourceTree = "<group>"; };
+		8141317B1EED36BC00F73932 /* XCTestCase+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+Tap.m"; sourceTree = "<group>"; };
+		81D1BC751EED21360089284B /* SSUITestSendox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSUITestSendox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D1BC781EED21360089284B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81D1BC791EED21360089284B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81D1BC7C1EED21360089284B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81D1BC811EED21360089284B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81D1BC841EED21360089284B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81D1BC861EED21360089284B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D1BC8B1EED21360089284B /* SSUITestSendoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSUITestSendoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D1BC8F1EED21360089284B /* SSUITestSendoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSUITestSendoxUITests.m; sourceTree = "<group>"; };
+		81D1BC911EED21360089284B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D1BC721EED21350089284B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D1BC881EED21360089284B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814131741EED30DD00F73932 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8141315E1EED278200F73932 /* UIAccessibilityIdentifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8141315F1EED278200F73932 /* UIAccessibilityIdentifiers.h */,
+			);
+			path = UIAccessibilityIdentifiers;
+			sourceTree = "<group>";
+		};
+		814131601EED2ADF00F73932 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				814131611EED2B1E00F73932 /* SSLoginController.h */,
+				814131621EED2B1E00F73932 /* SSLoginController.m */,
+				814131661EED2B4000F73932 /* SSMainUIController.h */,
+				814131671EED2B4000F73932 /* SSMainUIController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		814131721EED30DD00F73932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814131731EED30DD00F73932 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		814131751EED32E100F73932 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8141316E1EED305800F73932 /* XCTestCase+Utilities.h */,
+				8141316F1EED305800F73932 /* XCTestCase+Utilities.m */,
+				814131761EED32F300F73932 /* XCTestCase+Input.h */,
+				814131771EED32F300F73932 /* XCTestCase+Input.m */,
+				8141317A1EED36BC00F73932 /* XCTestCase+Tap.h */,
+				8141317B1EED36BC00F73932 /* XCTestCase+Tap.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		81D1BC6C1EED21350089284B = {
+			isa = PBXGroup;
+			children = (
+				81D1BC771EED21360089284B /* SSUITestSendox */,
+				81D1BC8E1EED21360089284B /* SSUITestSendoxUITests */,
+				81D1BC761EED21360089284B /* Products */,
+				814131721EED30DD00F73932 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81D1BC761EED21360089284B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D1BC751EED21360089284B /* SSUITestSendox.app */,
+				81D1BC8B1EED21360089284B /* SSUITestSendoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81D1BC771EED21360089284B /* SSUITestSendox */ = {
+			isa = PBXGroup;
+			children = (
+				814131601EED2ADF00F73932 /* Controllers */,
+				8141315E1EED278200F73932 /* UIAccessibilityIdentifiers */,
+				81D1BC781EED21360089284B /* AppDelegate.h */,
+				81D1BC791EED21360089284B /* AppDelegate.m */,
+				81D1BC811EED21360089284B /* Assets.xcassets */,
+				81D1BC831EED21360089284B /* Main.storyboard */,
+				81D1BC861EED21360089284B /* Info.plist */,
+				81D1BC7B1EED21360089284B /* Supporting Files */,
+			);
+			path = SSUITestSendox;
+			sourceTree = "<group>";
+		};
+		81D1BC7B1EED21360089284B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D1BC7C1EED21360089284B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81D1BC8E1EED21360089284B /* SSUITestSendoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				814131751EED32E100F73932 /* Core */,
+				81D1BC8F1EED21360089284B /* SSUITestSendoxUITests.m */,
+				81D1BC911EED21360089284B /* Info.plist */,
+			);
+			path = SSUITestSendoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D1BC741EED21350089284B /* SSUITestSendox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D1BC941EED21360089284B /* Build configuration list for PBXNativeTarget "SSUITestSendox" */;
+			buildPhases = (
+				81D1BC711EED21350089284B /* Sources */,
+				81D1BC721EED21350089284B /* Frameworks */,
+				81D1BC731EED21350089284B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSUITestSendox;
+			productName = SSUITestSendox;
+			productReference = 81D1BC751EED21360089284B /* SSUITestSendox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81D1BC8A1EED21360089284B /* SSUITestSendoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D1BC971EED21360089284B /* Build configuration list for PBXNativeTarget "SSUITestSendoxUITests" */;
+			buildPhases = (
+				81D1BC871EED21360089284B /* Sources */,
+				81D1BC881EED21360089284B /* Frameworks */,
+				81D1BC891EED21360089284B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D1BC8D1EED21360089284B /* PBXTargetDependency */,
+			);
+			name = SSUITestSendoxUITests;
+			productName = SSUITestSendoxUITests;
+			productReference = 81D1BC8B1EED21360089284B /* SSUITestSendoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81D1BC6D1EED21350089284B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SS;
+				TargetAttributes = {
+					81D1BC741EED21350089284B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					81D1BC8A1EED21360089284B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81D1BC741EED21350089284B;
+					};
+				};
+			};
+			buildConfigurationList = 81D1BC701EED21350089284B /* Build configuration list for PBXProject "SSUITestSendox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81D1BC6C1EED21350089284B;
+			productRefGroup = 81D1BC761EED21360089284B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81D1BC741EED21350089284B /* SSUITestSendox */,
+				81D1BC8A1EED21360089284B /* SSUITestSendoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D1BC731EED21350089284B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D1BC821EED21360089284B /* Assets.xcassets in Resources */,
+				81D1BC851EED21360089284B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D1BC891EED21360089284B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D1BC711EED21350089284B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814131631EED2B1E00F73932 /* SSLoginController.m in Sources */,
+				81D1BC7D1EED21360089284B /* main.m in Sources */,
+				81D1BC7A1EED21360089284B /* AppDelegate.m in Sources */,
+				814131691EED2B4000F73932 /* SSMainUIController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D1BC871EED21360089284B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8141316A1EED2B4000F73932 /* SSMainUIController.m in Sources */,
+				81D1BC901EED21360089284B /* SSUITestSendoxUITests.m in Sources */,
+				814131791EED32F300F73932 /* XCTestCase+Input.m in Sources */,
+				814131641EED2B1E00F73932 /* SSLoginController.m in Sources */,
+				8141317D1EED36BC00F73932 /* XCTestCase+Tap.m in Sources */,
+				814131711EED305800F73932 /* XCTestCase+Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81D1BC8D1EED21360089284B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D1BC741EED21350089284B /* SSUITestSendox */;
+			targetProxy = 81D1BC8C1EED21360089284B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81D1BC831EED21360089284B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D1BC841EED21360089284B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D1BC921EED21360089284B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81D1BC931EED21360089284B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81D1BC951EED21360089284B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SSUITestSendox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SS.SSUITestSendox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81D1BC961EED21360089284B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SSUITestSendox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SS.SSUITestSendox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81D1BC981EED21360089284B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SSUITestSendoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SS.SSUITestSendoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSUITestSendox;
+			};
+			name = Debug;
+		};
+		81D1BC991EED21360089284B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SSUITestSendoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SS.SSUITestSendoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSUITestSendox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D1BC701EED21350089284B /* Build configuration list for PBXProject "SSUITestSendox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D1BC921EED21360089284B /* Debug */,
+				81D1BC931EED21360089284B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D1BC941EED21360089284B /* Build configuration list for PBXNativeTarget "SSUITestSendox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D1BC951EED21360089284B /* Debug */,
+				81D1BC961EED21360089284B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D1BC971EED21360089284B /* Build configuration list for PBXNativeTarget "SSUITestSendoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D1BC981EED21360089284B /* Debug */,
+				81D1BC991EED21360089284B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81D1BC6D1EED21350089284B /* Project object */;
+}
