@@ -1,8 +1,4 @@
 /*
- * (c) 2017 BlackBerry Limited. All rights reserved.
- */
-
-/*
  * This header stores all accessibility identifiers which are related
  * to the UI elements of the sample
  *
